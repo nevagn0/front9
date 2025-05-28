@@ -1,0 +1,14 @@
+{
+  "name": "auth-app",
+  "version": "1.0.0",
+  "description": "Authentication web application with theme support and caching",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1"
+  }
+}

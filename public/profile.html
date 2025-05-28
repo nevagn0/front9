@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <div class="profile-container">
+            <div class="profile-header">
+                <h1>Добро пожаловать, <span id="username"></span>!</h1>
+            </div>
+
+            <div class="profile-info">
+                <div class="info-card">
+                    <h3>Информация о пользователе</h3>
+                    <p><strong>Имя:</strong> <span id="full-name"></span></p>
+                    <p><strong>Email:</strong> <span id="email"></span></p>
+                    <p><strong>Дата регистрации:</strong> <span id="join-date"></span></p>
+                </div>
+            </div>
+
+            <button id="logout-btn" class="logout-btn">Выйти</button>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html> 
